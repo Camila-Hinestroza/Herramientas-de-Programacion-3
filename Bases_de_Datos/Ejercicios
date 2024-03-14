@@ -1,0 +1,82 @@
+-- 1
+Declare @autor varchar(100);
+SET @autor = 'J.K. Rowling';
+SELECT titulo
+FROM Libros L
+JOIN Autores A ON L.autorId = A.id
+WHERE A.nombre = @autor
+go
+
+--2
+Declare @categoria varchar(100);
+SET @categoria = 'Ficción';
+SELECT titulo
+FROM Libros L
+JOIN Categorias C ON L.categoriaId = C.id
+WHERE C.nombre = @categoria
+go
+
+--3
+Declare @autor varchar(100);
+SET @autor = 'Gabriel García Márquez';
+SELECT titulo
+FROM Libros L
+JOIN Autores A ON L.autorId = A.id
+WHERE A.nombre = @autor AND FechaPublicacion > '1970-01-01';
+go
+
+--4
+Declare @categoria varchar(100);
+SET @categoria = 'Terror';
+SELECT titulo
+FROM Libros L
+JOIN Categorias C ON L.categoriaId = C.id
+WHERE C.nombre = @categoria AND FechaPublicacion > '1976-01-01';
+go
+
+--5
+SELECT *
+FROM Libros
+WHERE Titulo LIKE '%Harry%';
+go
+
+--6
+Drop procedure if exists cantidadLibrosEditorial
+go
+CREATE PROCEDURE cantidadLibrosEditorial
+@Editorial varchar(100),
+@CantidadLibros INT
+AS
+BEGIN
+	-- Calcular la cantidad de libros para la editorial especificada
+    SELECT @CantidadLibros = COUNT(*)
+    FROM Libros
+    WHERE @Editorial = 'Salamandra';
+
+--	SET @Editorial = 'Salamandra';
+--	SELECT titulo
+--	FROM Libros L
+--	JOIN Editoriales E ON L.editorialId = E.id
+	
+END;
+
+EXECUTE cantidadLibrosEditorial
+GO
+
+--7
+-- Crear el procedimiento almacenado
+CREATE PROCEDURE ObtenerLibrosMasRecientesPorCategoria
+    @Categoria NVARCHAR(100)
+AS
+BEGIN
+    -- Seleccionar los libros más recientes por categoría
+    SELECT *
+    FROM (
+        SELECT 
+            ROW_NUMBER() OVER (PARTITION BY Categoria ORDER BY FechaPublicacion DESC) AS Orden,
+            *
+        FROM Libros
+        WHERE Categorias = @Categoria
+    ) AS LibrosOrdenados
+    WHERE Orden = 1;
+END;
