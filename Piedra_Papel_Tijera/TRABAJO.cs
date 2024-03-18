@@ -69,7 +69,7 @@ class TallerPptCamilaHinestroza
             }
             else if (victoriasJugador < victoriasComputadora)
             {
-                Console.WriteLine("\nLa computadoraz ha ganado el juego. Mejor suerte la próxima vez.");
+                Console.WriteLine("\nLa computadora ha ganado el juego. Mejor suerte la próxima vez.");
             }
             else
             {
