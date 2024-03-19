@@ -21,16 +21,13 @@ body{
 #portafolio, footer{
     background-color: rgb(222, 243, 243);
     color: black;
-
 }
 
 .carousel-control-prev{
     margin-left: 200px; /* Cambia este valor para ajustar la distancia */
     width: auto; /* Para asegurarse de que el ancho se ajuste automáticamente */
-
 }
 .carousel-control-next {
     margin-right: 200px; /* Cambia este valor para ajustar la distancia */
     width: auto; /* Para asegurarse de que el ancho se ajuste automáticamente */
-
 }
