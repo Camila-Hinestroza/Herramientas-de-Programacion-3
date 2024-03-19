@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sistema de Gestión de Bibliotecas</title>
+<link rel="stylesheet" href="styles.css">
+<script src="script.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Gestión Biblioteca</h1>
+    
+        <div class="NuevoLibro">
+            <h2 style="padding-top: 3.5%; padding-left: 5%;">Registrar Nuevo Libro</h2>
+            <!-- Formulario para agregar libros -->
+            <form id="FormularioLibros">
+                <p>Título del libro:</p>
+                <input type="text" id="libroTitulo" placeholder="Título del libro" required>
+                <p>Autor:</p>
+                <input type="text" id="libroAutor" placeholder="Autor del libro" required>
+                <p>Editorial:</p>
+                <input type="text" id="libroEditorial" placeholder="Editorial del libro" required>
+                <p>Categoría:</p>
+                <input type="text" id="libroCategoria" placeholder="Categoría del libro" required>
+                <p>Fecha de Publicación:</p>
+                <input type="date" id="libroFecha" required>
+                <p></p>
+                <input type="submit" value="Agregar Libro">
+            </form>
+        </div>
+
+    <!-- Tabla de libros -->
+    <h2>Lista de Libros</h2>
+    <table id="tablaLibros">
+        <thead>
+            <tr>
+                <th>Título</th>
+                <th>Autor</th>
+                <th>Editorial</th>
+                <th>Categoría</th>
+                <th>Fecha de Publicación</th>
+                <th>Acciones</th>
+            </tr>
+        </thead>
+        <tbody id="listaLibros">
+        </tbody>
+    </table>
+</div>
+
+</body>
+</html>
