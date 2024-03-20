@@ -1,0 +1,36 @@
+#mainNav{
+    background-color: rgb(255, 254, 254);
+    color: brown;
+   position: fixed;
+   top: 0;
+   left: 0;
+   width: 100%;
+   z-index: 1000;
+   box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.5);
+   transition: background-color 0.3s ease;  
+   opacity: .6;
+}
+
+
+body{
+    padding-top: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+#portafolio, footer{
+    background-color: rgb(222, 243, 243);
+    color: black;
+
+}
+
+.carousel-control-prev{
+    margin-left: 200px; 
+    width: auto;
+
+}
+.carousel-control-next {
+    margin-right: 200px; 
+    width: auto; 
+
+}
