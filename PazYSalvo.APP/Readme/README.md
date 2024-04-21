@@ -15,11 +15,12 @@ Abrimos la terminal.
 
     ![](https://github.com/Camila-Hinestroza/Herramientas-de-Programacion-3/blob/main/PazYSalvo.APP/Readme/1.png?raw=true)
 2. Creamos la capa "PazYSalvoAPP.Data" con el comando "dotnet new classlib -n PazYSalvoAPP.Data"
+   
+    ![](https://github.com/Camila-Hinestroza/Herramientas-de-Programacion-3/blob/main/PazYSalvo.APP/Readme/2.png?raw=true)
+   
+4. Creamos la capa "PazYSalvoAPP.Business" con el comando "dotnet new classlib -n PazYSalvoAPP.Business"
 
-    --captura 2
-3. Creamos la capa "PazYSalvoAPP.Business" con el comando "dotnet new classlib -n PazYSalvoAPP.Business"
-
-    --captura 3
+    ![](https://github.com/Camila-Hinestroza/Herramientas-de-Programacion-3/blob/main/PazYSalvo.APP/Readme/3.png?raw=true)
 
 Posterior a esto borramos manualmente las Clases de las bibliotecas de clases.
 
@@ -36,7 +37,7 @@ Referencias de las capas que se an a crear en el archivo csproj de l capa de pre
 
 1. Se agrega un paquete System.Data.SqlClient en el PazYSalvoAPP.Data.csproj para el acceso de datos utilizando el comando "dotnet add package System.Data.SqlClient" en la terminal
     
-    --captura 4
+    ![](https://github.com/Camila-Hinestroza/Herramientas-de-Programacion-3/blob/main/PazYSalvo.APP/Readme/4.png?raw=true)
 
 2. Se crea la clase "Producto" par agregar las referencias.
 
@@ -160,7 +161,7 @@ Referencias de las capas que se an a crear en el archivo csproj de l capa de pre
 
 Nos vamos a SQL SERVER y creamos una base de datos llamada "PazSalvo"
 
---captura 5
+![](https://github.com/Camila-Hinestroza/Herramientas-de-Programacion-3/blob/main/PazYSalvo.APP/Readme/5.png?raw=true)
 ## Capa de presentación configuraciones
 
 1. Nos vamos al appsettings.json y creamos la conexion con la base de datos anteriormente creada con el codigo:
@@ -212,8 +213,7 @@ Nos vamos a SQL SERVER y creamos una base de datos llamada "PazSalvo"
 
 Creamos la vista del Controller Producto.
 
--- captura 6
-
+![](https://github.com/Camila-Hinestroza/Herramientas-de-Programacion-3/blob/main/PazYSalvo.APP/Readme/6.png?raw=true)
 
 ## Conexión a la Base de Datos
 
