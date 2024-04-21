@@ -1,0 +1,12 @@
+D:\Descargas\PazYSalvo.APP\PazYSalvoAPP.Data\bin\Debug\net8.0\PazYSalvoAPP.Data.deps.json
+D:\Descargas\PazYSalvo.APP\PazYSalvoAPP.Data\bin\Debug\net8.0\PazYSalvoAPP.Data.dll
+D:\Descargas\PazYSalvo.APP\PazYSalvoAPP.Data\bin\Debug\net8.0\PazYSalvoAPP.Data.pdb
+D:\Descargas\PazYSalvo.APP\PazYSalvoAPP.Data\obj\Debug\net8.0\PazYSalvoAPP.Data.csproj.AssemblyReference.cache
+D:\Descargas\PazYSalvo.APP\PazYSalvoAPP.Data\obj\Debug\net8.0\PazYSalvoAPP.Data.GeneratedMSBuildEditorConfig.editorconfig
+D:\Descargas\PazYSalvo.APP\PazYSalvoAPP.Data\obj\Debug\net8.0\PazYSalvoAPP.Data.AssemblyInfoInputs.cache
+D:\Descargas\PazYSalvo.APP\PazYSalvoAPP.Data\obj\Debug\net8.0\PazYSalvoAPP.Data.AssemblyInfo.cs
+D:\Descargas\PazYSalvo.APP\PazYSalvoAPP.Data\obj\Debug\net8.0\PazYSalvoAPP.Data.csproj.CoreCompileInputs.cache
+D:\Descargas\PazYSalvo.APP\PazYSalvoAPP.Data\obj\Debug\net8.0\PazYSalvoAPP.Data.dll
+D:\Descargas\PazYSalvo.APP\PazYSalvoAPP.Data\obj\Debug\net8.0\refint\PazYSalvoAPP.Data.dll
+D:\Descargas\PazYSalvo.APP\PazYSalvoAPP.Data\obj\Debug\net8.0\PazYSalvoAPP.Data.pdb
+D:\Descargas\PazYSalvo.APP\PazYSalvoAPP.Data\obj\Debug\net8.0\ref\PazYSalvoAPP.Data.dll

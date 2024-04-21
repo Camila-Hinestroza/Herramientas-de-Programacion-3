@@ -1,0 +1,15 @@
+D:\Descargas\PazYSalvo.APP\PazYSalvoAPP.Business\bin\Debug\net8.0\PazYSalvoAPP.Business.deps.json
+D:\Descargas\PazYSalvo.APP\PazYSalvoAPP.Business\bin\Debug\net8.0\PazYSalvoAPP.Business.dll
+D:\Descargas\PazYSalvo.APP\PazYSalvoAPP.Business\bin\Debug\net8.0\PazYSalvoAPP.Business.pdb
+D:\Descargas\PazYSalvo.APP\PazYSalvoAPP.Business\bin\Debug\net8.0\PazYSalvoAPP.Data.dll
+D:\Descargas\PazYSalvo.APP\PazYSalvoAPP.Business\bin\Debug\net8.0\PazYSalvoAPP.Data.pdb
+D:\Descargas\PazYSalvo.APP\PazYSalvoAPP.Business\obj\Debug\net8.0\PazYSalvoAPP.Business.csproj.AssemblyReference.cache
+D:\Descargas\PazYSalvo.APP\PazYSalvoAPP.Business\obj\Debug\net8.0\PazYSalvoAPP.Business.GeneratedMSBuildEditorConfig.editorconfig
+D:\Descargas\PazYSalvo.APP\PazYSalvoAPP.Business\obj\Debug\net8.0\PazYSalvoAPP.Business.AssemblyInfoInputs.cache
+D:\Descargas\PazYSalvo.APP\PazYSalvoAPP.Business\obj\Debug\net8.0\PazYSalvoAPP.Business.AssemblyInfo.cs
+D:\Descargas\PazYSalvo.APP\PazYSalvoAPP.Business\obj\Debug\net8.0\PazYSalvoAPP.Business.csproj.CoreCompileInputs.cache
+D:\Descargas\PazYSalvo.APP\PazYSalvoAPP.Business\obj\Debug\net8.0\PazYSalv.BE8FB390.Up2Date
+D:\Descargas\PazYSalvo.APP\PazYSalvoAPP.Business\obj\Debug\net8.0\PazYSalvoAPP.Business.dll
+D:\Descargas\PazYSalvo.APP\PazYSalvoAPP.Business\obj\Debug\net8.0\refint\PazYSalvoAPP.Business.dll
+D:\Descargas\PazYSalvo.APP\PazYSalvoAPP.Business\obj\Debug\net8.0\PazYSalvoAPP.Business.pdb
+D:\Descargas\PazYSalvo.APP\PazYSalvoAPP.Business\obj\Debug\net8.0\ref\PazYSalvoAPP.Business.dll
