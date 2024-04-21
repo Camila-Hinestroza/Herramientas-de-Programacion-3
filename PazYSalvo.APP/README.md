@@ -13,7 +13,7 @@ Abrimos la terminal.
 
 1. Creamos la capa de presentacion "PazYSalvoAPP.WebAPP" con el comando "dotnet new mvc -n PazYSalvoAPP.WebApp"
 
-    --captura 1
+    ![](file:///D:/Descargas/capturas%20webapp/1.png)
 2. Creamos la capa "PazYSalvoAPP.Data" con el comando "dotnet new classlib -n PazYSalvoAPP.Data"
 
     --captura 2
