@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "BlcL8fLGkwed+FVBfYL/tkh9kCrGpt1yOFu1eE5wFi4Bum2Jat0Bbvi6Sg5F5OVADW0ti75LRlYmd0JFyxDqig==",
+  "success": true,
+  "projectFilePath": "D:\\Descargas\\PazYSalvo _ Actualizada\\PazYSalvo\\PazYSalvoAPP\\PazYSalvoAPP.Models\\PazYSalvoAPP.Models.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ssamm\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.18\\microsoft.netcore.app.ref.7.0.18.nupkg.sha512",
+    "C:\\Users\\ssamm\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.18\\microsoft.windowsdesktop.app.ref.7.0.18.nupkg.sha512",
+    "C:\\Users\\ssamm\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.18\\microsoft.aspnetcore.app.ref.7.0.18.nupkg.sha512"
+  ],
+  "logs": []
+}
