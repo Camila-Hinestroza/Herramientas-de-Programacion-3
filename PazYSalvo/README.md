@@ -8,7 +8,7 @@ Continuamos creando la Web del trabajo paz y salvo realizando las cosas faltante
 
 Entramos a la carpeta PazYSalvoAPP.Business y creamos los servicios faltantes esto lo hacemos entrando a la carpeta "Service".
 1. Terminamos de realizar la clase de la entidad Estado la cual estaba incompleta.
- ![](https://github.com/Camila-Hinestroza/Herramientas-de-Programacion-3/blob/main/PazYSalvo/Readmee/captura1.png?raw=true)
+ ![](https://raw.githubusercontent.com/Camila-Hinestroza/Herramientas-de-Programacion-3/main/PazYSalvo/Readmee/captura%201.png)
 
 2. creamos las clases y las interfaces para las siguientes entidades: cliente, medios de pago, pago, persona, rol y usuario. 
 
