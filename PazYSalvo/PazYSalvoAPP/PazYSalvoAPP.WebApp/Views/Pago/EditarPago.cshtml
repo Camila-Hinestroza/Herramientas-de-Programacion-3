@@ -1,0 +1,48 @@
+@using PazYSalvoAPP.Models;
+
+
+@model PazYSalvoAPP.WebApp.Models.ViewModels.PagoViewModel
+
+
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+
+
+
+<h2>Editar Pago</h2>
+<div class="frmContainer">
+    <form method="post" asp-action="ActualizarPago" asp-controller="Pago" id="frmEditarPago" enctype="multipart/form-data">
+        @Html.AntiForgeryToken()
+        <div class="form-group">
+            <input type="hidden" class="form-control" id="Id" name="Id" value="@Model.Id">
+        </div>
+
+
+        <div class="form-group">
+            <label for="MontoDePago">MontoDePago</label>
+            <input type="text" class="form-control" id="MontoDePago" name="MontoDePago" value="@(Model.MontoDePago)">
+        </div>
+        <br />
+        <div class="form-group">
+            <label for="Activo">Activo</label>
+            <input type="text" class="form-control" id="Activo" name="Activo" value="@(Model.Activo)">
+        </div>
+        <br />
+
+
+        <br />
+       
+        <br />
+
+
+        <div class="modal-footer">
+            <a type="button" class="btn btn-secondary" href="@Url.Action("Index", "Pago")">Volver</a>
+            <button type="submit" class="btn btn-primary" id="btnActualizarPago">Actualizar</button>
+        </div>
+    </form>
+</div>
+
