@@ -1,0 +1,14 @@
+D:\Descargas\HP3\TallerSgb\TallerSgb\obj\Debug\net8.0\TallerSgb.GeneratedMSBuildEditorConfig.editorconfig
+D:\Descargas\HP3\TallerSgb\TallerSgb\obj\Debug\net8.0\TallerSgb.AssemblyInfoInputs.cache
+D:\Descargas\HP3\TallerSgb\TallerSgb\obj\Debug\net8.0\TallerSgb.AssemblyInfo.cs
+D:\Descargas\HP3\TallerSgb\TallerSgb\obj\Debug\net8.0\TallerSgb.csproj.CoreCompileInputs.cache
+D:\Descargas\HP3\TallerSgb\TallerSgb\bin\Debug\net8.0\TallerSgb.exe
+D:\Descargas\HP3\TallerSgb\TallerSgb\bin\Debug\net8.0\TallerSgb.deps.json
+D:\Descargas\HP3\TallerSgb\TallerSgb\bin\Debug\net8.0\TallerSgb.runtimeconfig.json
+D:\Descargas\HP3\TallerSgb\TallerSgb\bin\Debug\net8.0\TallerSgb.dll
+D:\Descargas\HP3\TallerSgb\TallerSgb\bin\Debug\net8.0\TallerSgb.pdb
+D:\Descargas\HP3\TallerSgb\TallerSgb\obj\Debug\net8.0\TallerSgb.dll
+D:\Descargas\HP3\TallerSgb\TallerSgb\obj\Debug\net8.0\refint\TallerSgb.dll
+D:\Descargas\HP3\TallerSgb\TallerSgb\obj\Debug\net8.0\TallerSgb.pdb
+D:\Descargas\HP3\TallerSgb\TallerSgb\obj\Debug\net8.0\TallerSgb.genruntimeconfig.cache
+D:\Descargas\HP3\TallerSgb\TallerSgb\obj\Debug\net8.0\ref\TallerSgb.dll
