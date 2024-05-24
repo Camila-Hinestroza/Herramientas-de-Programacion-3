@@ -9,21 +9,20 @@ Este juego fue creado mediante el seguimiento de un tutorial.
 
 Se crea un nuevo proyecto en: Aplicación de windows forms (.NET Framework).
 
-img 1
 ## Estructura inicial
 
 1. Se crea una etiqueta(label) y se perzonaliza, con (name); txtScore.
-img2
+ ![](https://raw.githubusercontent.com/Camila-Hinestroza/Herramientas-de-Programacion-3/main/PazYSalvo/Readmee/captura%201.png)
 
 2. Se agrega un pictureBox que funcionará como el jugador, con (name); player.
-img 3
+ ![](https://raw.githubusercontent.com/Camila-Hinestroza/Herramientas-de-Programacion-3/main/PazYSalvo/Readmee/captura%201.png)
 
 3. Se agrega otro pictureBox que servirá como la pelota, con el (name): ball.
 
 4. Se utilizan más pictureBox para crear los bloques del juego, se organizan en 5 columnas y se duplica dos veces más para generar la estructura de los bloques, en Tag se agregan como "blocks".
 
 5. Se agrega un timer y se crea como evento con el nombre; mainGameTimerEvent, con un intervalo de 20.
-img 4 
+ ![](https://raw.githubusercontent.com/Camila-Hinestroza/Herramientas-de-Programacion-3/main/PazYSalvo/Readmee/captura%201.png)
 ## Inicializar código
 
 1. Se crean tres variables del tipo booleano, llamadas: goLeft, goRight y isGameover y también se crean cuatro variables más de tipo entero llamadas: score, ballx, bally y playerSpeed.
