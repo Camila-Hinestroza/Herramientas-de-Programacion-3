@@ -12,18 +12,18 @@ Se crea un nuevo proyecto en: Aplicación de windows forms (.NET Framework).
 ## Estructura inicial
 
 1. Se crea una etiqueta(label) y se perzonaliza, con (name); txtScore.
- ![](https://raw.githubusercontent.com/Camila-Hinestroza/Herramientas-de-Programacion-3/main/Breakout Game AyC/imagenes/imagen 2.png)
+ ![](https://github.com/Camila-Hinestroza/Herramientas-de-Programacion-3/blob/main/Breakout%20Game%20AyC/imagenes/imagen%202.png)
 
 
 3. Se agrega un pictureBox que funcionará como el jugador, con (name); player.
- ![](https://raw.githubusercontent.com/Camila-Hinestroza/Herramientas-de-Programacion-3/main/PazYSalvo/Readmee/captura%201.png)
+ ![](https://github.com/Camila-Hinestroza/Herramientas-de-Programacion-3/blob/main/Breakout%20Game%20AyC/imagenes/imagen%203.png)
 
 4. Se agrega otro pictureBox que servirá como la pelota, con el (name): ball.
 
 5. Se utilizan más pictureBox para crear los bloques del juego, se organizan en 5 columnas y se duplica dos veces más para generar la estructura de los bloques, en Tag se agregan como "blocks".
 
 6. Se agrega un timer y se crea como evento con el nombre; mainGameTimerEvent, con un intervalo de 20.
- ![](https://raw.githubusercontent.com/Camila-Hinestroza/Herramientas-de-Programacion-3/main/PazYSalvo/Readmee/captura%201.png)
+ ![](https://github.com/Camila-Hinestroza/Herramientas-de-Programacion-3/blob/main/Breakout%20Game%20AyC/imagenes/imagen%204.png)
 ## Inicializar código
 
 1. Se crean tres variables del tipo booleano, llamadas: goLeft, goRight y isGameover y también se crean cuatro variables más de tipo entero llamadas: score, ballx, bally y playerSpeed.
