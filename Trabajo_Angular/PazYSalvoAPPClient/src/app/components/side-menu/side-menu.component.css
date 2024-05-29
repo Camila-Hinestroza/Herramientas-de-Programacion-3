@@ -1,0 +1,99 @@
+/* mat-sidenav {
+
+    margin: 1rem;
+    width: 240px;
+    border-right: none;
+    border-radius: 1rem;
+    background-image: linear-gradient(to right, #68217a, #8a2be2);
+    color: white;
+    padding: 10px 20px;
+
+} */
+
+mat-sidenav-container {
+  height: 90vh;
+  width: 100%;
+  margin-top: 1rem;
+    border-right: none;
+    border-radius: 1rem;
+    background-image: linear-gradient(to right, #68217a, #8a2be2);
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+mat-divider {
+  background-color: gainsboro;
+  margin-bottom: 1rem;
+  margin-top: 0.5rem;
+  width: 100%;
+}
+
+button {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: 1rem;
+  color:white;
+  background: transparent;
+  border: none;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+
+button:hover {
+  cursor: pointer;
+  background-image: linear-gradient(to right, #a35db1, #b58fdc);
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  width: 100%;
+}
+
+span {
+  margin-left: 0.5rem;
+}
+
+
+.img-container .name {
+  font-size:large;
+  margin: 1rem;
+
+}
+
+.img-container .desc {
+  font-size: medium;
+  margin-bottom: 4px;
+}
+
+.logo-img {
+  width: 150px; /* Ancho mínimo */
+  height: 150px; /* Alto mínimo */
+  object-fit: contain; /* Ajusta la imagen dentro del contenedor manteniendo su relación de aspecto */
+  border-radius: 50%; /* Para hacer la imagen circular */
+  margin-bottom: 2rem;
+}
+
+.options-container {
+  height: 20vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 3rem;
+}
+
+.help-container {
+  height: 20vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 3rem;
+
+}

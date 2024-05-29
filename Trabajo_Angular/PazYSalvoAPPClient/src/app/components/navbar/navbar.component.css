@@ -1,0 +1,32 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(to right, #68217a, #8a2be2);
+  color: whitesmoke;
+  padding: 1rem;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  color: gainsboro;
+}
+
+.menu-btn {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: 1rem;
+  color:white;
+  background: transparent;
+  border: none;
+}
+
+button:hover {
+  cursor: pointer;
+  background-image: linear-gradient(to right, #a35db1, #b58fdc);
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  width: 100%;
+}

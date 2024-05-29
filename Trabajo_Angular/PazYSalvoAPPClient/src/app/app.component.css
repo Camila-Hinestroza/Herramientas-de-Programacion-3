@@ -1,0 +1,16 @@
+.content-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sidenav-container {
+  width: 20vw;
+  margin-right: 1rem;
+}
+
+.content {
+  width: 80vw;
+
+}
+
